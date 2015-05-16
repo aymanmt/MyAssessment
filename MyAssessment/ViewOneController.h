@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewOneController : UIViewController
 
+@property (strong, nonatomic) NSString *buffer;
 
 @end
 
